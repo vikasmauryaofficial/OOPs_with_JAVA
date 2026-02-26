@@ -8,7 +8,7 @@ public class StreamIntermediateOperations{
     public static void main(String[] args) {
         // List of lists of names
         List<List<String>> listOfLists = Arrays.asList(
-            Arrays.asList("Reflection", "Collection", "Stream"),
+            Arrays.asList("Reflection", "Collection", " Stream"),
             Arrays.asList("Structure", "State", "Flow"),
             Arrays.asList("Sorting", "Mapping", "Reduction", "Stream")
         );

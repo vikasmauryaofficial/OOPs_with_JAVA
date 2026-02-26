@@ -13,3 +13,6 @@ public class streamapi {
         .forEach(System.out::println);   
     }
 }
+Collection->stream->intermediate->t->res  //pipeline
+
+list-stream()->map()->forEach->
