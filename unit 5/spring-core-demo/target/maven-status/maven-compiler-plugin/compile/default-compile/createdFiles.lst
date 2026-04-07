@@ -1,0 +1,5 @@
+com\example\model\Address.class
+com\example\aspect\LoggingAspect.class
+com\example\config\AppConfig.class
+com\example\model\Student.class
+com\example\App.class

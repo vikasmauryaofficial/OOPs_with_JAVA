@@ -9,19 +9,16 @@ class Table {
         }
     }
 }
-
 class Thread1 extends Thread {
     public void run() {
-        Table.printTable(5);
+        Table.printTable(5); 
     }
 }
-
 class Thread2 extends Thread {
     public void run() {
         Table.printTable(10);
     }
 }
-
 public class Teststatic {
     public static void main(String[] args) {
         Thread1 t1 = new Thread1();

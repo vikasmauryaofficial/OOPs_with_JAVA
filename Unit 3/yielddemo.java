@@ -1,15 +1,17 @@
 public class yielddemo {
 
     public static void main(String[] args) {
-        int day=1;
+        int day=3;
         String result=switch(day){
-            case 1->{
-                System.out.println("runiing");
-                yield "monday";
-
-            } default->"error";
-        };
-            System.out.println(result);
-    }
+            case 1:
+                yield "one";
+            case 2: 
+                yield "two";
+            default:
+                yield "other";
+     
+    };
+    System.out.println(result);
     
+}
 }

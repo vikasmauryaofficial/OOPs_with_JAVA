@@ -1,4 +1,8 @@
 class student{
+
+   
+
+
     int id;
     String name;
     void display(){
